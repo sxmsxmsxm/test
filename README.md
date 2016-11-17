@@ -50,26 +50,55 @@
 ## 目录
 td-react
 >
->  dist
+>  dist 
 >
->  > libs
+>  > libs  
 >
->  > boudle.js
+>  > boudle.js   打包后输出的js文件
 >
->  > index.css
+>  > index.css   各个组件打包后统一的样式文件
 >
->  > index.html
+>  > index.html  打包后输出的静态文件
 >
->  > ...
+>  > jquery.mini.js  组件开发依赖于jquery
+>
+>  > ...         可放置组件开发依赖的非react插件文件
 >
 > example
 >
+>  > componentExample.jsx   组件测试用例，在index.js中引用
+>
+>  > index.css   所有组件测试用例样式文件
+>
+>  > index.js    组件测试用例入口文件
+>
+>  > ...         每个组件测试用例写一个.jsx文件，并在index.js中引用
+>
 >  src
 >
-> package.json
+>  > assets  
 >
-> README.md
+>  >  > tpl.html  静态模板文件夹
 >
-> webpack.congfig.js
+>  > componentName  一个文件夹是一个组件
 >
-
+>  >  > components  放置子组件
+>
+>  >  > index.jsx  组件入口
+>
+>  >  > index.css  组件样式文件
+>
+>  > index.css   所有组件测试用例样式文件
+>
+>  > index.js    组件开发入口文件
+>
+>  > ...        每个组件测试用例写一个.jsx文件，并在index.js中引用
+>
+> convert.js    编码转换文件
+>
+> package.json  项目的配置文件
+>  
+> README.md     说明文件
+>
+> webpack.congfig.js  项目打包配置文件
+>
