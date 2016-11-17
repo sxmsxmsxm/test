@@ -48,9 +48,18 @@
 ![加油](fight.png)
 
 ## 目录
-> td-react
+td-react
 >
 > > dist
+>
+> > > libs
+>
+> > > boudle.js
+>
+> > > index.css
+>
+> > > index.html
+
 >
 > > example
 >
