@@ -50,20 +50,19 @@
 ## 目录
 td-react
 >
-> > dist
+>  dist
 >
-> > > libs
+>  > libs
 >
-> > > boudle.js
+>  > boudle.js
 >
-> > > index.css
+>  > index.css
 >
-> > > index.html
-
+>  > index.html
 >
-> > example
+> example
 >
-> > src
+>  src
 >
 > package.json
 >
